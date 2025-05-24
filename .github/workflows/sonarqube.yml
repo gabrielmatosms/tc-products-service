@@ -1,11 +1,10 @@
 name: SonarCloud analysis
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["test and coverage Tests"]
+    types:
+      - completed
 
 permissions:
   pull-requests: read
