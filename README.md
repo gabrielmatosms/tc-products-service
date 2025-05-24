@@ -1,4 +1,4 @@
-### Microserviço de pagamento dos pedidos - Tech Challenge Fase 4
+### Microserviço de gerencimento dos produtos - Tech Challenge Fase 4
 
 # Serviço que gerencia os produtos
 
